@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ListactivityTest</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    
+    <string-array name="string_array">
+    	<item >KDJA</item>
+    	<item >JSKWNA</item>
+        <item >XNSDA</item>
+        <item >NRIWP</item>
+        <item >ODKAL</item>
+        <item >MBOPAS</item>
+        <item >AIWOE</item>
+        <item >UTUSSE</item>
+        <item >PWKES</item>
+    </string-array>
+    
+</resources>
