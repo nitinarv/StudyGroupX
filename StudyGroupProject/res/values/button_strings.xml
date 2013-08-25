@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="normalSection">Normal Button Clicks</string>
+    <string name="directbutton">direct button calls</string>
+    <string name="interfacebutton">grouped clicks</string>
+    <string name="interfaceclick">interface clicking</string>
+
+</resources>

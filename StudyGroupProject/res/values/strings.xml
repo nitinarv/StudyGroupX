@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">StudyGroupProject</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string-array name="ActivityName">
+        <item>Button Click Techniques</item>
+        <item>Config Change Handler</item>
+        <item>Intent Test</item>
+        <item>Linear Layout</item>
+        <item>Relavite Layout</item>
+        <item>Frame Layout</item>
+        <item>Table Layout</item>
+        <item>ListActivity Array List </item>
+        <item>Activity Array List</item>
+        <item>Activity Cursor List</item>
+        <item>Preference Activity</item>
+        <item>Tabbed View</item>
+        <item>Tabbed Activity</item>
+    </string-array>
+    
+    
+    <string-array name="ActivityPackage">
+        <item>com.example.buttonclicktechns.ButtonMainActivity</item>
+        <item>com.example.configchangehandle.ConfigActivity</item>
+        <item>com.example.intenttest.MainActivity</item>
+        <item>com.example.linearlayout.LinearMainActivity</item>
+        <item>com.example.relativelayout.RelativeMainActivity</item>
+        <item>com.example.framelayout.FrameMainActivity</item>
+        <item>com.example.tablelayout.TableLayoutMainActivity</item>
+        <item>com.example.listactivitytest.ListactivityMainActivity</item>
+        <item>com.example.listactivitytest.ActivityListActivityMain</item>
+        <item>com.example.listactivitycursortest.ListactivityMainActivity</item>
+        <item>com.example.preferenceactivity.PreferenceMainActivity</item>
+        <item>com.example.tabview.TabViewMainActivity</item>
+        <item>com.example.tabact.TabActivityMainActivity</item>
+    </string-array>
+    
+
+</resources>

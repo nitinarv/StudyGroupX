@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IntentTester" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:onClick="buttonclick"
+        android:text="Goto Page One" />
+
+    <Button
+        android:id="@+id/buttonlist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button1"
+        android:layout_centerHorizontal="true"
+        android:onClick="gotolistpage"
+        android:text="Goto list page" />
+
+    <Button
+        android:id="@+id/parcelsampbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonlist"
+        android:layout_centerHorizontal="true"
+        android:onClick="sendparcelclick"
+        android:text="Send Parcel" />
+    
+    <Button
+        android:id="@+id/broadcastbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/parcelsampbutton"
+        android:layout_centerHorizontal="true"
+        android:onClick="sendbroadcastclick"
+        android:text="Send Broadcast" />
+    
+    <Button
+        android:id="@+id/startservicebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/broadcastbutton"
+        android:layout_centerHorizontal="true"
+        android:onClick="startserviceclick"
+        android:text="Start a service" />
+    
+    <Button
+        android:id="@+id/implicitbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/startservicebutton"
+        android:layout_centerHorizontal="true"
+        android:onClick="implicitclick"
+        android:text="implicit intent test" />
+
+    <TextView
+        android:id="@+id/listResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/buttonlist"
+        android:layout_alignBottom="@+id/buttonlist"
+        android:layout_toRightOf="@+id/buttonlist"
+        android:text="" />
+
+</RelativeLayout>
