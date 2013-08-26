@@ -11,6 +11,7 @@ import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListView;
 
+import com.group.studyproject.Center;
 import com.group.studyproject.R;
 
 public class ListactivityMainActivity extends Activity {

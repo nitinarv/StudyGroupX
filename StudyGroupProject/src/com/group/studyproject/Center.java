@@ -1,10 +1,12 @@
-package com.example.listactivitycursortest;
+package com.group.studyproject;
 
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
+
+import com.example.listactivitycursortest.DbHelper;
 
 import android.app.Application;
 import android.database.Cursor;
