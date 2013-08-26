@@ -23,19 +23,19 @@
     
     
     <string-array name="ActivityPackage">
-        <item>com.example.buttonclicktechns.ButtonMainActivity</item>
-        <item>com.example.configchangehandle.ConfigActivity</item>
-        <item>com.example.intenttest.MainActivity</item>
-        <item>com.example.linearlayout.LinearMainActivity</item>
-        <item>com.example.relativelayout.RelativeMainActivity</item>
-        <item>com.example.framelayout.FrameMainActivity</item>
-        <item>com.example.tablelayout.TableLayoutMainActivity</item>
-        <item>com.example.listactivitytest.ListactivityMainActivity</item>
-        <item>com.example.listactivitytest.ActivityListActivityMain</item>
-        <item>com.example.listactivitycursortest.ListactivityMainActivity</item>
-        <item>com.example.preferenceactivity.PreferenceMainActivity</item>
-        <item>com.example.tabview.TabViewMainActivity</item>
-        <item>com.example.tabact.TabActivityMainActivity</item>
+        <item>com.sgxp.buttonclicktechns.ButtonMainActivity</item>
+        <item>com.sgxp.configchangehandle.ConfigActivity</item>
+        <item>com.sgxp.intenttest.MainActivity</item>
+        <item>com.sgxp.linearlayout.LinearMainActivity</item>
+        <item>com.sgxp.relativelayout.RelativeMainActivity</item>
+        <item>com.sgxp.framelayout.FrameMainActivity</item>
+        <item>com.sgxp.tablelayout.TableLayoutMainActivity</item>
+        <item>com.sgxp.listactivitytest.ListactivityMainActivity</item>
+        <item>com.sgxp.listactivitytest.ActivityListActivityMain</item>
+        <item>com.sgxp.listactivitycursortest.ListactivityMainActivity</item>
+        <item>com.sgxp.preferenceactivity.PreferenceMainActivity</item>
+        <item>com.sgxp.tabview.TabViewMainActivity</item>
+        <item>com.sgxp.tabact.TabActivityMainActivity</item>
     </string-array>
     
 
