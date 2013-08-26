@@ -13,9 +13,9 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" 
-        android:name="com.group.studyproject.Center">
+        android:name="com.sgxp.studyproject.Center">
         <activity
-            android:name="com.group.studyproject.AppListingActivity"
+            android:name="com.sgxp.studyproject.AppListingActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,27 +23,27 @@
             </intent-filter>
         </activity>
         
-        <activity android:name="com.example.buttonclicktechns.ButtonMainActivity"/>
-        <activity android:name="com.example.configchangehandle.ConfigActivity"/>
-        <activity android:name="com.example.framelayout.FrameMainActivity"/>
-        <activity android:name="com.example.intenttest.MainActivity"/>
-        <activity android:name="com.example.intenttest.ListPage"/>
-        <activity android:name="com.example.intenttest.MyParcelActivity"/>
-        <activity android:name="com.example.intenttest.PageOne"/>
-        <activity android:name="com.example.intenttest.PageTwo"/>
-        <activity android:name="com.example.intenttest.PageThree"/>
-        <activity android:name="com.example.linearlayout.LinearMainActivity"/>
-        <activity android:name="com.example.listactivitytest.ListactivityMainActivity"/>
-        <activity android:name="com.example.listactivitytest.ActivityListActivityMain"/>
-        <activity android:name="com.example.listactivitycursortest.ListactivityMainActivity"/>
-        <activity android:name="com.example.preferenceactivity.PreferenceMainActivity"/>
-        <activity android:name="com.example.preferenceactivity.PrefAct"/>
-        <activity android:name="com.example.relativelayout.RelativeMainActivity"/>
-        <activity android:name="com.example.tablelayout.TableLayoutMainActivity"/>
-        <activity android:name="com.example.tabview.TabViewMainActivity"/>
-        <activity android:name="com.example.tabact.TabActivityMainActivity"/>         
-        <activity android:name="com.example.tabact.Act1"/>
-        <activity android:name="com.example.tabact.Act2"/>
+        <activity android:name="com.sgxp.buttonclicktechns.ButtonMainActivity"/>
+        <activity android:name="com.sgxp.configchangehandle.ConfigActivity"/>
+        <activity android:name="com.sgxp.framelayout.FrameMainActivity"/>
+        <activity android:name="com.sgxp.intenttest.MainActivity"/>
+        <activity android:name="com.sgxp.intenttest.ListPage"/>
+        <activity android:name="com.sgxp.intenttest.MyParcelActivity"/>
+        <activity android:name="com.sgxp.intenttest.PageOne"/>
+        <activity android:name="com.sgxp.intenttest.PageTwo"/>
+        <activity android:name="com.sgxp.intenttest.PageThree"/>
+        <activity android:name="com.sgxp.linearlayout.LinearMainActivity"/>
+        <activity android:name="com.sgxp.listactivitytest.ListactivityMainActivity"/>
+        <activity android:name="com.sgxp.listactivitytest.ActivityListActivityMain"/>
+        <activity android:name="com.sgxp.listactivitycursortest.ListactivityMainActivity"/>
+        <activity android:name="com.sgxp.preferenceactivity.PreferenceMainActivity"/>
+        <activity android:name="com.sgxp.preferenceactivity.PrefAct"/>
+        <activity android:name="com.sgxp.relativelayout.RelativeMainActivity"/>
+        <activity android:name="com.sgxp.tablelayout.TableLayoutMainActivity"/>
+        <activity android:name="com.sgxp.tabview.TabViewMainActivity"/>
+        <activity android:name="com.sgxp.tabact.TabActivityMainActivity"/>         
+        <activity android:name="com.sgxp.tabact.Act1"/>
+        <activity android:name="com.sgxp.tabact.Act2"/>
     </application>
 
 </manifest>
