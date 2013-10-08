@@ -19,6 +19,7 @@
         <item>Preference Activity</item>
         <item>Tabbed View</item>
         <item>Tabbed Activity</item>
+        <item>* Assignment 1 *</item>
     </string-array>
     
     
@@ -36,6 +37,7 @@
         <item>com.sgxp.preferenceactivity.PreferenceMainActivity</item>
         <item>com.sgxp.tabview.TabViewMainActivity</item>
         <item>com.sgxp.tabact.TabActivityMainActivity</item>
+        <item>com.sgxp.asgmt1.assignment.MainActivity</item>
     </string-array>
     
 
