@@ -62,6 +62,19 @@ android.support.v4.widget.SlidingPaneLayout: void setShadowDrawable(android.grap
 android.support.v4.widget.SlidingPaneLayout: void setShadowResource(int)
 android.support.v4.widget.SlidingPaneLayout$SavedState
 android.support.v4.widget.SlidingPaneLayout$SavedState: android.os.Parcelable$Creator CREATOR
+com.group.studyproject.R$anim: int asgmt1_grow_from_bottom
+com.group.studyproject.R$anim: int asgmt1_grow_from_bottomleft_to_topright
+com.group.studyproject.R$anim: int asgmt1_grow_from_bottomright_to_topleft
+com.group.studyproject.R$anim: int asgmt1_grow_from_top
+com.group.studyproject.R$anim: int asgmt1_grow_from_topleft_to_bottomright
+com.group.studyproject.R$anim: int asgmt1_grow_from_topright_to_bottomleft
+com.group.studyproject.R$anim: int asgmt1_rail
+com.group.studyproject.R$anim: int asgmt1_shrink_from_bottom
+com.group.studyproject.R$anim: int asgmt1_shrink_from_bottomleft_to_topright
+com.group.studyproject.R$anim: int asgmt1_shrink_from_bottomright_to_topleft
+com.group.studyproject.R$anim: int asgmt1_shrink_from_top
+com.group.studyproject.R$anim: int asgmt1_shrink_from_topleft_to_bottomright
+com.group.studyproject.R$anim: int asgmt1_shrink_from_topright_to_bottomleft
 com.group.studyproject.R$array: int ActivityName
 com.group.studyproject.R$array: int ActivityPackage
 com.group.studyproject.R$array: int string_array
@@ -69,8 +82,34 @@ com.group.studyproject.R$array: int syncFrequency
 com.group.studyproject.R$array: int syncFrequencyValues
 com.group.studyproject.R$dimen: int activity_horizontal_margin
 com.group.studyproject.R$dimen: int activity_vertical_margin
+com.group.studyproject.R$drawable: int asgmt1_ic_accept
+com.group.studyproject.R$drawable: int asgmt1_ic_add
+com.group.studyproject.R$drawable: int asgmt1_ic_launcher
+com.group.studyproject.R$drawable: int asgmt1_ic_list_more
+com.group.studyproject.R$drawable: int asgmt1_ic_list_more_selected
+com.group.studyproject.R$drawable: int asgmt1_ic_up
+com.group.studyproject.R$drawable: int asgmt1_icon
+com.group.studyproject.R$drawable: int asgmt1_quickaction_arrow_down
+com.group.studyproject.R$drawable: int asgmt1_quickaction_arrow_up
+com.group.studyproject.R$drawable: int asgmt1_quickaction_background
+com.group.studyproject.R$drawable: int asgmt1_quickaction_bottom_frame
+com.group.studyproject.R$drawable: int asgmt1_quickaction_slider_background
+com.group.studyproject.R$drawable: int asgmt1_quickaction_slider_btn
+com.group.studyproject.R$drawable: int asgmt1_quickaction_slider_btn_normal
+com.group.studyproject.R$drawable: int asgmt1_quickaction_slider_btn_on
+com.group.studyproject.R$drawable: int asgmt1_quickaction_slider_btn_pressed
+com.group.studyproject.R$drawable: int asgmt1_quickaction_slider_btn_selected
+com.group.studyproject.R$drawable: int asgmt1_quickaction_slider_grip_left
+com.group.studyproject.R$drawable: int asgmt1_quickaction_slider_grip_right
+com.group.studyproject.R$drawable: int asgmt1_quickaction_top_frame
+com.group.studyproject.R$drawable: int asgmt1_quickcontact_drop_shadow
+com.group.studyproject.R$drawable: int asgmt1_stub
+com.group.studyproject.R$drawable: int asgmt1_textfield_default
 com.group.studyproject.R$drawable: int ic_launcher
 com.group.studyproject.R$id: int action_settings
+com.group.studyproject.R$id: int album
+com.group.studyproject.R$id: int arrow_down
+com.group.studyproject.R$id: int arrow_up
 com.group.studyproject.R$id: int broadcastbutton
 com.group.studyproject.R$id: int button1
 com.group.studyproject.R$id: int button2
@@ -82,19 +121,31 @@ com.group.studyproject.R$id: int button7
 com.group.studyproject.R$id: int button8
 com.group.studyproject.R$id: int button9
 com.group.studyproject.R$id: int buttonlist
+com.group.studyproject.R$id: int company
 com.group.studyproject.R$id: int editText1
 com.group.studyproject.R$id: int five
+com.group.studyproject.R$id: int footer
 com.group.studyproject.R$id: int four
+com.group.studyproject.R$id: int genre
+com.group.studyproject.R$id: int goto_download
 com.group.studyproject.R$id: int gotopagethree
+com.group.studyproject.R$id: int header2
+com.group.studyproject.R$id: int image
 com.group.studyproject.R$id: int implicitbutton
+com.group.studyproject.R$id: int iv_icon
 com.group.studyproject.R$id: int listResult
 com.group.studyproject.R$id: int list_view
 com.group.studyproject.R$id: int listsamplecode
+com.group.studyproject.R$id: int listview
+com.group.studyproject.R$id: int main_webview
 com.group.studyproject.R$id: int menu_settings
 com.group.studyproject.R$id: int one
 com.group.studyproject.R$id: int pagemain
 com.group.studyproject.R$id: int pagetwo
 com.group.studyproject.R$id: int parcelsampbutton
+com.group.studyproject.R$id: int price
+com.group.studyproject.R$id: int releasedate
+com.group.studyproject.R$id: int scroll
 com.group.studyproject.R$id: int seven
 com.group.studyproject.R$id: int six
 com.group.studyproject.R$id: int startservicebutton
@@ -116,10 +167,15 @@ com.group.studyproject.R$id: int textView2
 com.group.studyproject.R$id: int textView3
 com.group.studyproject.R$id: int textViewparcelmessage
 com.group.studyproject.R$id: int three
+com.group.studyproject.R$id: int title
+com.group.studyproject.R$id: int tracks
+com.group.studyproject.R$id: int try_rss_again
+com.group.studyproject.R$id: int tv_title
 com.group.studyproject.R$id: int two
 com.group.studyproject.R$id: int txt1
 com.group.studyproject.R$id: int txt2
 com.group.studyproject.R$id: int txt3
+com.group.studyproject.R$id: int webmessage
 com.group.studyproject.R$layout: int act1_activity
 com.group.studyproject.R$layout: int act2_activity
 com.group.studyproject.R$layout: int activity_app_listing
@@ -137,6 +193,11 @@ com.group.studyproject.R$layout: int activity_relative_main
 com.group.studyproject.R$layout: int activity_tab_activity_main
 com.group.studyproject.R$layout: int activity_tab_view_main
 com.group.studyproject.R$layout: int activity_table_layout_main
+com.group.studyproject.R$layout: int asgmt1_action_item
+com.group.studyproject.R$layout: int asgmt1_list_item
+com.group.studyproject.R$layout: int asgmt1_main_activity
+com.group.studyproject.R$layout: int asgmt1_main_web
+com.group.studyproject.R$layout: int asgmt1_quick_action
 com.group.studyproject.R$layout: int fancylayout
 com.group.studyproject.R$layout: int list_page
 com.group.studyproject.R$layout: int page_one
@@ -146,6 +207,7 @@ com.group.studyproject.R$layout: int parcel_activity
 com.group.studyproject.R$layout: int row_activity
 com.group.studyproject.R$layout: int row_activity_array
 com.group.studyproject.R$menu: int app_listing
+com.group.studyproject.R$menu: int asgmt1_main
 com.group.studyproject.R$menu: int preference_main
 com.group.studyproject.R$raw: int sql
 com.group.studyproject.R$raw: int sql2
@@ -168,9 +230,26 @@ com.group.studyproject.R$string: int pref_user_name
 com.group.studyproject.R$string: int pref_user_name_summary
 com.group.studyproject.R$string: int pref_user_profile
 com.group.studyproject.R$string: int title_activity_main
+com.group.studyproject.R$style: int Animations
+com.group.studyproject.R$style: int Animations_PopDownMenu
+com.group.studyproject.R$style: int Animations_PopDownMenu_Center
+com.group.studyproject.R$style: int Animations_PopDownMenu_Left
+com.group.studyproject.R$style: int Animations_PopDownMenu_Right
+com.group.studyproject.R$style: int Animations_PopUpMenu
+com.group.studyproject.R$style: int Animations_PopUpMenu_Center
+com.group.studyproject.R$style: int Animations_PopUpMenu_Left
+com.group.studyproject.R$style: int Animations_PopUpMenu_Right
 com.group.studyproject.R$style: int AppBaseTheme
 com.group.studyproject.R$style: int AppTheme
 com.group.studyproject.R$xml: int settings
+com.sgxp.asgmt1.assignment.MainActivity
+com.sgxp.asgmt1.assignment.MainActivity: MainActivity()
+com.sgxp.asgmt1.assignment.MainIntentService
+com.sgxp.asgmt1.assignment.MainIntentService: MainIntentService()
+com.sgxp.asgmt1.assignment.MainWebActivity
+com.sgxp.asgmt1.assignment.MainWebActivity: MainWebActivity()
+com.sgxp.asgmt1.provider.MyContentProvider
+com.sgxp.asgmt1.provider.MyContentProvider: MyContentProvider()
 com.sgxp.buttonclicktechns.ButtonMainActivity
 com.sgxp.buttonclicktechns.ButtonMainActivity: ButtonMainActivity()
 com.sgxp.buttonclicktechns.ButtonMainActivity: void fourclick(android.view.View)

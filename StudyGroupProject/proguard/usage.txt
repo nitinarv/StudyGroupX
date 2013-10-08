@@ -969,6 +969,7 @@ android.support.v4.widget.ViewDragHelper$Callback:
     148:148:public ViewDragHelper$Callback()
 com.group.studyproject.BuildConfig
 com.group.studyproject.R
+com.group.studyproject.R$anim
 com.group.studyproject.R$array
 com.group.studyproject.R$attr
 com.group.studyproject.R$dimen
@@ -980,6 +981,55 @@ com.group.studyproject.R$raw
 com.group.studyproject.R$string
 com.group.studyproject.R$style
 com.group.studyproject.R$xml
+com.sgxp.applicationclass.ApplicationClass:
+    java.lang.String TAG
+    9:9:public ApplicationClass()
+    31:31:public static com.sgxp.applicationclass.ApplicationClass getInstance()
+com.sgxp.asgmt1.assignment.MainActivity:
+    private static final int ID_DL_IMG
+    private static final int ID_GOTO_WEB
+    private static final int ID_DL_PRW
+com.sgxp.asgmt1.customadapter.CustomAdapter:
+    private int mSelectedPosition
+    128:131:public void setSelectedPosition(int)
+com.sgxp.asgmt1.lazylist.MemoryCache:
+    private static final java.lang.String TAG
+com.sgxp.asgmt1.lazylist.Utils:
+    6:6:public Utils()
+com.sgxp.asgmt1.provider.ItunesRssDb
+com.sgxp.asgmt1.provider.ItunesRssDb$Top40Table
+com.sgxp.asgmt1.provider.MyContentProvider:
+    private static final java.lang.String TAG
+    private static final java.lang.String AUTH
+    static final int CHART_ITEM
+com.sgxp.asgmt1.quickaction.ActionItem:
+    private android.graphics.Bitmap thumb
+    private boolean selected
+    30:31:public ActionItem(int,java.lang.String)
+    35:36:public ActionItem(android.graphics.drawable.Drawable)
+    40:41:public ActionItem(int,android.graphics.drawable.Drawable)
+    44:45:public void setTitle(java.lang.String)
+    53:54:public void setIcon(android.graphics.drawable.Drawable)
+    63:64:public void setActionId(int)
+    72:73:public void setSticky(boolean)
+    81:82:public void setSelected(boolean)
+    86:86:public boolean isSelected()
+    91:92:public void setThumb(android.graphics.Bitmap)
+    96:96:public android.graphics.Bitmap getThumb()
+com.sgxp.asgmt1.quickaction.PopupWindows:
+    75:76:public void setBackgroundDrawable(android.graphics.drawable.Drawable)
+    87:90:public void setContentView(int)
+com.sgxp.asgmt1.quickaction.QuickAction:
+    public static final int ANIM_GROW_FROM_LEFT
+    public static final int ANIM_GROW_FROM_RIGHT
+    public static final int ANIM_GROW_FROM_CENTER
+    public static final int ANIM_AUTO
+    98:99:public void mAnimateTrack(boolean)
+    102:103:public void setAnimStyle(int)
+    268:271:public void setOnDismissListener(com.sgxp.asgmt1.quickaction.QuickAction$OnDismissListener)
+com.sgxp.asgmt1.sqlite.DatabaseHelper:
+    public static final int DATABASE_VERSION
+    public static final java.lang.String DATABASE_NAME
 com.sgxp.configchangehandle.ConfigActivity:
     android.widget.EditText edit
     android.widget.Button update

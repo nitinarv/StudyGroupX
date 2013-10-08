@@ -1322,6 +1322,215 @@ android.support.v4.widget.ViewDragHelper$Callback -> android.support.v4.widget.a
     boolean tryCaptureView(android.view.View,int) -> a
     int clampViewPositionHorizontal(android.view.View,int,int) -> a
     int clampViewPositionVertical(android.view.View,int,int) -> b
+com.sgxp.applicationclass.ApplicationClass -> com.sgxp.a.a:
+    com.sgxp.applicationclass.ApplicationClass instance -> a
+    com.sgxp.asgmt1.sqlite.DatabaseHelper dbInstance -> b
+    void onCreate() -> onCreate
+    com.sgxp.asgmt1.sqlite.DatabaseHelper getDbInstance() -> a
+    void setDbInstance(com.sgxp.asgmt1.sqlite.DatabaseHelper) -> a
+com.sgxp.asgmt1.assignment.MainActivity -> com.sgxp.asgmt1.assignment.MainActivity:
+    int LOADER -> o
+    android.widget.ListView listview -> a
+    com.sgxp.asgmt1.customadapter.CustomAdapter sca -> b
+    long enqueue -> p
+    android.app.DownloadManager dm -> q
+    android.content.BroadcastReceiver receiver -> c
+    java.lang.String sImage_55 -> d
+    java.lang.String sImage_60 -> e
+    java.lang.String sImage_170 -> f
+    java.lang.String sTitle -> g
+    java.lang.String sGenre -> h
+    java.lang.String sReleasedate -> i
+    java.lang.String sPrice -> j
+    java.lang.String sAlbum -> k
+    java.lang.String sCompany -> l
+    java.lang.String sWebLink -> m
+    java.lang.String sPreview -> n
+    void onCreate(android.os.Bundle) -> onCreate
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    void onDestroy() -> onDestroy
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    android.content.Loader onCreateLoader(int,android.os.Bundle) -> onCreateLoader
+    void onLoadFinished(android.content.Loader,android.database.Cursor) -> a
+    void onLoaderReset(android.content.Loader) -> onLoaderReset
+    void onLoadFinished(android.content.Loader,java.lang.Object) -> onLoadFinished
+    long access$1(com.sgxp.asgmt1.assignment.MainActivity) -> a
+    android.app.DownloadManager access$2(com.sgxp.asgmt1.assignment.MainActivity) -> b
+    void access$3(com.sgxp.asgmt1.assignment.MainActivity,android.app.DownloadManager) -> a
+    void access$4(com.sgxp.asgmt1.assignment.MainActivity,long) -> a
+com.sgxp.asgmt1.assignment.MainActivity$1 -> com.sgxp.asgmt1.assignment.a:
+    com.sgxp.asgmt1.assignment.MainActivity this$0 -> a
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+com.sgxp.asgmt1.assignment.MainActivity$2 -> com.sgxp.asgmt1.assignment.b:
+    com.sgxp.asgmt1.assignment.MainActivity this$0 -> a
+    void onItemClick(com.sgxp.asgmt1.quickaction.QuickAction,int,int) -> a
+com.sgxp.asgmt1.assignment.MainActivity$3 -> com.sgxp.asgmt1.assignment.c:
+    com.sgxp.asgmt1.assignment.MainActivity this$0 -> a
+    void onDismiss() -> onDismiss
+com.sgxp.asgmt1.assignment.MainActivity$4 -> com.sgxp.asgmt1.assignment.d:
+    com.sgxp.asgmt1.assignment.MainActivity this$0 -> a
+    com.sgxp.asgmt1.quickaction.QuickAction val$mQuickAction -> b
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+com.sgxp.asgmt1.assignment.MainIntentService -> com.sgxp.asgmt1.assignment.MainIntentService:
+    java.lang.String TAG -> a
+    void onHandleIntent(android.content.Intent) -> onHandleIntent
+    boolean isOnline() -> a
+com.sgxp.asgmt1.assignment.MainWebActivity -> com.sgxp.asgmt1.assignment.MainWebActivity:
+    android.webkit.WebView main_webview -> a
+    android.widget.TextView screen_message -> b
+    java.lang.String address -> c
+    void onCreate(android.os.Bundle) -> onCreate
+com.sgxp.asgmt1.assignment.MainWebActivity$MyWebViewClient -> com.sgxp.asgmt1.assignment.e:
+    com.sgxp.asgmt1.assignment.MainWebActivity this$0 -> a
+    boolean shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String) -> shouldOverrideUrlLoading
+    void onPageStarted(android.webkit.WebView,java.lang.String,android.graphics.Bitmap) -> onPageStarted
+    void onPageFinished(android.webkit.WebView,java.lang.String) -> onPageFinished
+com.sgxp.asgmt1.asynctasks.RssXmlParseTask -> com.sgxp.asgmt1.a.a:
+    java.lang.String TAG -> a
+    int tableCount -> b
+    android.content.ContentResolver contentResolver -> c
+    android.content.Context context -> d
+    android.content.ContentValues contentValues -> e
+    void onProgressUpdate(java.lang.Object[]) -> onProgressUpdate
+    java.lang.Void doInBackground(java.lang.Void[]) -> a
+    java.io.InputStream downloadUrl(java.lang.String) -> a
+    java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
+com.sgxp.asgmt1.customadapter.CustomAdapter -> com.sgxp.asgmt1.b.a:
+    android.database.Cursor items -> a
+    android.content.Context context -> j
+    int layout -> k
+    android.widget.ImageView image -> b
+    android.widget.TextView title -> c
+    android.widget.TextView genre -> d
+    android.widget.TextView releasedate -> e
+    android.widget.TextView price -> f
+    android.widget.TextView album -> g
+    android.widget.TextView company -> h
+    android.view.LayoutInflater inflater -> l
+    com.sgxp.asgmt1.lazylist.ImageLoader imageLoader -> i
+    android.view.View newView(android.content.Context,android.database.Cursor,android.view.ViewGroup) -> newView
+    void setTextIfValid(android.widget.TextView,java.lang.String) -> a
+    void bindView(android.view.View,android.content.Context,android.database.Cursor) -> bindView
+com.sgxp.asgmt1.lazylist.FileCache -> com.sgxp.asgmt1.c.a:
+    java.io.File cacheDir -> a
+    java.io.File getFile(java.lang.String) -> a
+    void clear() -> a
+com.sgxp.asgmt1.lazylist.ImageLoader -> com.sgxp.asgmt1.c.b:
+    com.sgxp.asgmt1.lazylist.MemoryCache memoryCache -> a
+    com.sgxp.asgmt1.lazylist.FileCache fileCache -> b
+    java.util.Map imageViews -> f
+    java.util.concurrent.ExecutorService executorService -> c
+    android.os.Handler handler -> d
+    int stub_id -> e
+    void DisplayImage(java.lang.String,android.widget.ImageView) -> a
+    void queuePhoto(java.lang.String,android.widget.ImageView) -> b
+    android.graphics.Bitmap getBitmap(java.lang.String) -> a
+    android.graphics.Bitmap decodeFile(java.io.File) -> a
+    boolean imageViewReused(com.sgxp.asgmt1.lazylist.ImageLoader$PhotoToLoad) -> a
+    void clearCache() -> a
+    android.graphics.Bitmap access$0(com.sgxp.asgmt1.lazylist.ImageLoader,java.lang.String) -> a
+com.sgxp.asgmt1.lazylist.ImageLoader$BitmapDisplayer -> com.sgxp.asgmt1.c.c:
+    android.graphics.Bitmap bitmap -> a
+    com.sgxp.asgmt1.lazylist.ImageLoader$PhotoToLoad photoToLoad -> b
+    com.sgxp.asgmt1.lazylist.ImageLoader this$0 -> c
+    void run() -> run
+com.sgxp.asgmt1.lazylist.ImageLoader$PhotoToLoad -> com.sgxp.asgmt1.c.d:
+    java.lang.String url -> a
+    android.widget.ImageView imageView -> b
+    com.sgxp.asgmt1.lazylist.ImageLoader this$0 -> c
+com.sgxp.asgmt1.lazylist.ImageLoader$PhotosLoader -> com.sgxp.asgmt1.c.e:
+    com.sgxp.asgmt1.lazylist.ImageLoader$PhotoToLoad photoToLoad -> a
+    com.sgxp.asgmt1.lazylist.ImageLoader this$0 -> b
+    void run() -> run
+com.sgxp.asgmt1.lazylist.MemoryCache -> com.sgxp.asgmt1.c.f:
+    java.util.Map cache -> a
+    long size -> b
+    long limit -> c
+    void setLimit(long) -> a
+    android.graphics.Bitmap get(java.lang.String) -> a
+    void put(java.lang.String,android.graphics.Bitmap) -> a
+    void checkSize() -> b
+    void clear() -> a
+    long getSizeInBytes(android.graphics.Bitmap) -> a
+com.sgxp.asgmt1.lazylist.Utils -> com.sgxp.asgmt1.c.g:
+    void CopyStream(java.io.InputStream,java.io.OutputStream) -> a
+com.sgxp.asgmt1.provider.MyContentProvider -> com.sgxp.asgmt1.provider.MyContentProvider:
+    android.net.Uri TOP_40_URI -> a
+    android.database.sqlite.SQLiteDatabase sqlDB -> b
+    com.sgxp.asgmt1.sqlite.DatabaseHelper dbHelper -> c
+    android.content.UriMatcher uriMatcher -> d
+    boolean onCreate() -> onCreate
+    int delete(android.net.Uri,java.lang.String,java.lang.String[]) -> delete
+    java.lang.String getType(android.net.Uri) -> getType
+    android.net.Uri insert(android.net.Uri,android.content.ContentValues) -> insert
+    android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String) -> query
+    int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[]) -> update
+com.sgxp.asgmt1.quickaction.ActionItem -> com.sgxp.asgmt1.d.a:
+    android.graphics.drawable.Drawable icon -> a
+    java.lang.String title -> b
+    int actionId -> c
+    boolean sticky -> d
+    java.lang.String getTitle() -> a
+    android.graphics.drawable.Drawable getIcon() -> b
+    int getActionId() -> c
+    boolean isSticky() -> d
+com.sgxp.asgmt1.quickaction.PopupWindows -> com.sgxp.asgmt1.d.b:
+    android.content.Context mContext -> a
+    android.widget.PopupWindow mWindow -> b
+    android.view.View mRootView -> c
+    android.graphics.drawable.Drawable mBackground -> d
+    android.view.WindowManager mWindowManager -> e
+    void onDismiss() -> onDismiss
+    void onShow() -> a
+    void preShow() -> b
+    void setContentView(android.view.View) -> a
+    void setOnDismissListener(android.widget.PopupWindow$OnDismissListener) -> a
+    void dismiss() -> c
+com.sgxp.asgmt1.quickaction.PopupWindows$1 -> com.sgxp.asgmt1.d.c:
+    com.sgxp.asgmt1.quickaction.PopupWindows this$0 -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+com.sgxp.asgmt1.quickaction.QuickAction -> com.sgxp.asgmt1.d.d:
+    android.widget.ImageView mArrowUp -> f
+    android.widget.ImageView mArrowDown -> g
+    android.view.animation.Animation mTrackAnim -> h
+    android.view.LayoutInflater inflater -> i
+    android.view.ViewGroup mTrack -> j
+    com.sgxp.asgmt1.quickaction.QuickAction$OnActionItemClickListener mItemClickListener -> k
+    com.sgxp.asgmt1.quickaction.QuickAction$OnDismissListener mDismissListener -> l
+    java.util.List mActionItemList -> m
+    boolean mDidAction -> n
+    boolean mAnimateTrack -> o
+    int mChildPos -> p
+    int mAnimStyle -> q
+    com.sgxp.asgmt1.quickaction.ActionItem getActionItem(int) -> a
+    void setRootViewId(int) -> b
+    void addActionItem(com.sgxp.asgmt1.quickaction.ActionItem) -> a
+    void setOnActionItemClickListener(com.sgxp.asgmt1.quickaction.QuickAction$OnActionItemClickListener) -> a
+    void show(android.view.View) -> b
+    void setAnimationStyle(int,int,boolean) -> a
+    void showArrow(int,int) -> a
+    void onDismiss() -> onDismiss
+    com.sgxp.asgmt1.quickaction.QuickAction$OnActionItemClickListener access$0(com.sgxp.asgmt1.quickaction.QuickAction) -> a
+    void access$1(com.sgxp.asgmt1.quickaction.QuickAction,boolean) -> a
+com.sgxp.asgmt1.quickaction.QuickAction$1 -> com.sgxp.asgmt1.d.e:
+    com.sgxp.asgmt1.quickaction.QuickAction this$0 -> a
+    float getInterpolation(float) -> getInterpolation
+com.sgxp.asgmt1.quickaction.QuickAction$2 -> com.sgxp.asgmt1.d.f:
+    com.sgxp.asgmt1.quickaction.QuickAction this$0 -> a
+    int val$pos -> b
+    int val$actionId -> c
+    void onClick(android.view.View) -> onClick
+    com.sgxp.asgmt1.quickaction.QuickAction access$0(com.sgxp.asgmt1.quickaction.QuickAction$2) -> a
+com.sgxp.asgmt1.quickaction.QuickAction$2$1 -> com.sgxp.asgmt1.d.g:
+    com.sgxp.asgmt1.quickaction.QuickAction$2 this$1 -> a
+    void run() -> run
+com.sgxp.asgmt1.quickaction.QuickAction$OnActionItemClickListener -> com.sgxp.asgmt1.d.h:
+    void onItemClick(com.sgxp.asgmt1.quickaction.QuickAction,int,int) -> a
+com.sgxp.asgmt1.quickaction.QuickAction$OnDismissListener -> com.sgxp.asgmt1.d.i:
+    void onDismiss() -> a
+com.sgxp.asgmt1.sqlite.DatabaseHelper -> com.sgxp.asgmt1.e.a:
+    void onCreate(android.database.sqlite.SQLiteDatabase) -> onCreate
+    void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int) -> onUpgrade
 com.sgxp.buttonclicktechns.ButtonMainActivity -> com.sgxp.buttonclicktechns.ButtonMainActivity:
     android.widget.Button button1N -> a
     android.widget.Button button2N -> b
