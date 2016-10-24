@@ -6,6 +6,7 @@
     <string name="hello_world">Hello world!</string>
 
     <string-array name="ActivityName">
+        <item>* Google Indexing *</item>
         <item>Button Click Techniques</item>
         <item>Config Change Handler</item>
         <item>Intent Test</item>
@@ -24,6 +25,7 @@
     
     
     <string-array name="ActivityPackage">
+        <item>com.sgxp.googleindexing.MainActivity</item>
         <item>com.sgxp.buttonclicktechns.ButtonMainActivity</item>
         <item>com.sgxp.configchangehandle.ConfigActivity</item>
         <item>com.sgxp.intenttest.MainActivity</item>
